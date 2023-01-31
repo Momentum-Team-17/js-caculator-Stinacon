@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+* {
+    color: white;
+}
+
 .result-bar {
     display: flex;
     flex-wrap: no-wrap;
