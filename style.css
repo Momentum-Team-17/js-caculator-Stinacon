@@ -1,0 +1,15 @@
+.number-square {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+p {
+    display: flex;
+    width: 32%;
+    height: 150px;
+    margin: 2px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
