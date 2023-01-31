@@ -40,7 +40,7 @@
 
 }
 
-p {
+div.number-square>span {
     display: flex;
     width: 21%;
     height: 100px;
