@@ -1,3 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.result-bar {
+    display: flex;
+    flex-wrap: no-wrap;
+
+}
+
+span.clear-button {
+    display: flex;
+    width: 21%;
+    height: 100px;
+    margin: 2px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    /* border: 3px solid greenyellow; */
+}
+
+span.result {
+    display: flex;
+    width: 64%;
+    height: 100px;
+    margin: 2px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    /* border: 3px solid greenyellow; */
+}
+
 .number-square {
     display: flex;
     flex-wrap: wrap;
@@ -6,10 +40,12 @@
 
 p {
     display: flex;
-    width: 32%;
-    height: 150px;
+    width: 21%;
+    height: 100px;
     margin: 2px;
     background-color: green;
     align-items: center;
     justify-content: center;
+    font-size: 4em;
+    /* border: 3px solid greenyellow; */
 }
