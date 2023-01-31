@@ -1,18 +1,16 @@
 * {
     box-sizing: border-box;
-}
-
-* {
     color: white;
+    font-family: sans-serif
 }
 
-.result-bar {
+#top-bar {
     display: flex;
     flex-wrap: no-wrap;
 
 }
 
-span.clear-button {
+#clear-button {
     display: flex;
     width: 21%;
     height: 100px;
@@ -24,7 +22,7 @@ span.clear-button {
     /* border: 3px solid greenyellow; */
 }
 
-span.result {
+#result-space {
     display: flex;
     width: 64%;
     height: 100px;
