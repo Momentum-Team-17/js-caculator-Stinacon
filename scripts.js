@@ -29,24 +29,13 @@ equalButton.addEventListener('click', function (event) {
     //make the previous calculation evaluate and show up in the "filledDisplay"
     const answer = eval(display.innerText)
     console.log(answer);
+    display.innerText = answer;
 })
+
+
 
 let clearButton = document.querySelector('#clear-button');
 clearButton.addEventListener('click', function (event) {
-
+    display.innerText = ""
+    //add some sort of "remove" function to remove the text from the display? or #result-space
 })
-//how do i "capture" the inner text of the click event to move to the target, "result-space"?
-//something about appendChild(text)?
-
-//^selects where I want the inner text of my number button to go???
-//let existingElement = document.querySelector('.empty-div')
-// First select where you want to place the new content
-
-//let newElement = document.createElement('div')
-// Create the new element
-//let text = document.createTextNode('Hello there!')
-// Create some text
-//newElement.appendChild(text)
-// Add text to new element
-//existingElement.appendChild(newElement)
-// Add that element to the DOM
