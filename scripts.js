@@ -23,10 +23,18 @@ for (let button of buttonArray) {
     }
     )
 }
+let equalButton = document.querySelector('#equals');
 
+equalButton.addEventListener('click', function (event) {
+    //make the previous calculation evaluate and show up in the "filledDisplay"
+    const answer = eval(display.innerText)
+    console.log(answer);
+})
 
+let clearButton = document.querySelector('#clear-button');
+clearButton.addEventListener('click', function (event) {
 
-
+})
 //how do i "capture" the inner text of the click event to move to the target, "result-space"?
 //something about appendChild(text)?
 
