@@ -13,7 +13,7 @@
 //need to figure out how to loop the above event for all number buttons -- also how to make the number appear in the other box!!!
 let buttonArray = document.querySelectorAll('.button');
 let display = document.querySelector('#result-space');
-const filledDisplay = []
+let filledDisplay = []
 for (let button of buttonArray) {
     button.addEventListener('click', function (event) {
         // console.log(event.target.innerText)
@@ -36,6 +36,7 @@ equalButton.addEventListener('click', function (event) {
 
 let clearButton = document.querySelector('#clear-button');
 clearButton.addEventListener('click', function (event) {
-    display.innerText = ""
+    display.innerText = "";
+    filledDisplay = [];
     //add some sort of "remove" function to remove the text from the display? or #result-space
 })
