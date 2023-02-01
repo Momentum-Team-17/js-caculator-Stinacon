@@ -11,7 +11,7 @@
 // )
 
 //need to figure out how to loop the above event for all number buttons -- also how to make the number appear in the other box!!!
-let numButtonArray = document.querySelectorAll('button.num');
+let numButtonArray = document.querySelectorAll('.button.num');
 
 for (let numButton of numButtonArray) {
     numButton.addEventListener('click', function (event) {
